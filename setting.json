@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Burç ve rüya danışmanlığı; görseller temsilîdir.",
+    "en": "Zodiac and dream consulting; images are representative.",
+    "ar": "استشارات الأبراج وتحليل الأحلام؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "burç danışmanlığı, rüya yorumu",
+    "en": "zodiac consulting, dream interpretation",
+    "ar": "استشارات الأبراج، تفسير الأحلام"
+  },
+  "category": "Kurumsal",
+  "name": "Yıldız Köşkü",
+  "domain": "burc.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#7E57AE",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "6px",
+    "--mx-radius-md": "10px",
+    "--mx-radius-lg": "14px",
+    "--mx-radius-xl": "19px"
+  },
+  "icon": "icon.png"
+}

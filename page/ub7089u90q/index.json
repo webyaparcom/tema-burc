@@ -1,0 +1,40 @@
+{
+  "id": "ub7089u90q",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Burç, rüya ve dönem okuması.",
+    "en": "Zodiac, dream and period reading.",
+    "ar": "قراءة الأبراج والأحلام والأزمنة."
+  },
+  "keyword": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "g3grnh",
+      "uh1bj7"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:19.243Z",
+  "update": "2026-11-05T23:44:29.039Z"
+}
