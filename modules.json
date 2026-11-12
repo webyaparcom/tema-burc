@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "hukuk-hero-buro.webp",
+        "img": "hukuk-lamba.webp",
         "video": "",
         "poster": "",
         "alt": "Yıldız Köşkü",
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Danışmanlık",
-          "en": "Consulting",
-          "ar": "استشارات"
+          "tr": "Burç ve rüya danışmanlığı",
+          "en": "Astrology and dream consulting",
+          "ar": "استشارات الأبراج والأحلام"
         },
         "title": {
-          "tr": "Yildızlara bakarak rehberlik",
-          "en": "Guidance by looking at the stars",
-          "ar": "رشد بالنظر إلى النجوم"
+          "tr": "Yıldızlara bakarak kendinizi tanıyın",
+          "en": "Get to know yourself through the stars",
+          "ar": "تعرّف على نفسك من خلال النجوم"
         },
         "metin": {
-          "tr": "Yildiz Koshu, burç ve ruha danışmanlığı sunar; içerik eğitsel amaçlıdır ve kurgusaldır.",
-          "en": "Yildiz Koshu offers guidance on zodiac and soul; the content is educational and fictional.",
-          "ar": "يقدم يلدز كوشه استشارات حول الأبراج والروح؛ المحتوى تعليمي وافتراضي."
+          "tr": "Yıldız Köşkü; doğum haritası, rüya yorumu ve dönem okuması sunar. İçerik eğlence ve kişisel farkındalık amaçlıdır; kesin öngörü ya da tavsiye değildir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Yıldız Köşkü offers birth chart readings, dream interpretation and period readings. The content is for entertainment and self-reflection; it is not a definite prediction or advice. Images are representative; all text is fictional.",
+          "ar": "تقدّم يلدز كوشكو قراءة الخريطة الفلكية وتفسير الأحلام وقراءة الفترات. المحتوى للترفيه والتأمل الذاتي وليس تنبؤًا مؤكدًا أو نصيحة. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Hizmetler",
-          "en": "Services",
-          "ar": "الخدمات"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Randevu",
-          "en": "Booking",
-          "ar": "حجز"
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Rakamlarla Yıldız Köşkü",
+          "en": "Yıldız Köşkü in numbers",
+          "ar": "يلدز كوشكو بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,9 +1626,9 @@
         {
           "deger": 6,
           "sonek": "",
-          "ikon": "psychology",
+          "ikon": "stars",
           "etiket": {
-            "tr": "Hizmet tipi",
+            "tr": "Hizmet türü",
             "en": "Service types",
             "ar": "أنواع الخدمات"
           },
@@ -1637,9 +1648,9 @@
             "ar": "جلسات"
           },
           "aciklama": {
-            "tr": "2019–2026",
-            "en": "2019–2026",
-            "ar": "٢٠١٩–٢٠٢٦"
+            "tr": "2019–2026 (kurgusal değer)",
+            "en": "2019–2026 (fictional figure)",
+            "ar": "٢٠١٩–٢٠٢٦ (رقم افتراضي)"
           }
         },
         {
@@ -1648,8 +1659,8 @@
           "ikon": "school",
           "etiket": {
             "tr": "Kurs bitiren",
-            "en": "Course finishers",
-            "ar": "خريجو الدورات"
+            "en": "Course graduates",
+            "ar": "خريجو الدورة"
           },
           "aciklama": {
             "tr": "Toplam",
@@ -1662,14 +1673,14 @@
           "sonek": "",
           "ikon": "group",
           "etiket": {
-            "tr": "Atölye başı kişi",
-            "en": "People per workshop",
-            "ar": "أشخاص لكل ورشة"
+            "tr": "Kişi",
+            "en": "People",
+            "ar": "أشخاص"
           },
           "aciklama": {
-            "tr": "Azami",
-            "en": "Maximum",
-            "ar": "الحد الأقصى"
+            "tr": "Atölyede en çok",
+            "en": "Maximum per workshop",
+            "ar": "الحد الأقصى في الورشة"
           }
         }
       ],
@@ -1700,28 +1711,28 @@
           "ar": "خدماتنا"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Neler sunuyoruz?",
+          "en": "What do we offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Burç, rüya ve dönem okuması.",
-          "en": "Zodiac, dream and period reading.",
-          "ar": "قراءة الأبراج والأحلام والأزمنة."
+          "tr": "Harita, rüya ve dönem okuması; kurs ve atölye.",
+          "en": "Chart, dream and period readings; courses and workshops.",
+          "ar": "قراءات الخريطة والأحلام والفترات، مع دورات وورش."
         }
       },
       "data": [
         {
-          "icon": "psychology",
+          "icon": "stars",
           "name": {
-            "tr": "Burç haritesi",
+            "tr": "Doğum haritası",
             "en": "Birth chart",
             "ar": "خريطة الميلاد"
           },
           "description": {
-            "tr": "Doğum verisiyle kişisel harita.",
-            "en": "Personal chart with birth data.",
-            "ar": "خريطة شخصية ببيانات الولادة."
+            "tr": "Doğum tarihi, saati ve yerine göre kişisel harita okuması.",
+            "en": "A personal chart reading based on birth date, time and place.",
+            "ar": "قراءة خريطة شخصية بحسب تاريخ الولادة ووقتها ومكانها."
           }
         },
         {
@@ -1732,9 +1743,22 @@
             "ar": "تفسير الأحلام"
           },
           "description": {
-            "tr": "Tek seans rüya analizi.",
-            "en": "A single session dream analysis.",
-            "ar": "تحليل الحلم في جلسة واحدة."
+            "tr": "Rüya notlarınız üzerine tek seanslık sohbet.",
+            "en": "A one-session conversation about your dream notes.",
+            "ar": "جلسة واحدة لمناقشة ملاحظات أحلامك."
+          }
+        },
+        {
+          "icon": "school",
+          "name": {
+            "tr": "Temel astroloji kursu",
+            "en": "Basic astrology course",
+            "ar": "دورة الفلك الأساسية"
+          },
+          "description": {
+            "tr": "Sekiz derslik giriş kursu.",
+            "en": "An eight-lesson introductory course.",
+            "ar": "دورة تمهيدية من ثمانية دروس."
           }
         },
         {
@@ -1742,51 +1766,38 @@
           "name": {
             "tr": "Dönem okuması",
             "en": "Period reading",
-            "ar": "قراءة الزمن"
+            "ar": "قراءة الفترة"
           },
           "description": {
-            "tr": "Ay/dönem eğilimleri okuması.",
-            "en": "Reading of month/period trends.",
-            "ar": "قراءة اتجاهات الشهر/الزمن."
+            "tr": "Ay ve dönem eğilimleri üzerine genel okuma.",
+            "en": "A general reading of monthly and seasonal trends.",
+            "ar": "قراءة عامة لاتجاهات الشهر والفترة."
           }
         },
         {
           "icon": "groups",
           "name": {
-            "tr": "Atölye",
-            "en": "Workshop",
-            "ar": "ورشة"
+            "tr": "Grup atölyesi",
+            "en": "Group workshop",
+            "ar": "ورشة جماعية"
           },
           "description": {
-            "tr": "6 kişilik grup atölyesi (demo).",
-            "en": "A group workshop of 6 (demo).",
-            "ar": "ورشة مجموعة من ستة (تجريبية."
+            "tr": "En çok dört kişilik küçük grup çalışması.",
+            "en": "Small group sessions of up to four people.",
+            "ar": "جلسات جماعية صغيرة تضم أربعة أشخاص كحد أقصى."
           }
         },
         {
-          "icon": "school",
+          "icon": "mail",
           "name": {
-            "tr": "Temel kurs",
-            "en": "Basic course",
-            "ar": "دورة أساسية"
+            "tr": "Yazılı soru-yanıt",
+            "en": "Written Q&A",
+            "ar": "أسئلة وأجوبة مكتوبة"
           },
           "description": {
-            "tr": "8 derslik giriş kursu.",
-            "en": "An 8-lesson introductory course.",
-            "ar": "دورة تمهيدية من 8 دروس."
-          }
-        },
-        {
-          "icon": "support_agent",
-          "name": {
-            "tr": "Soru yanıtlama",
-            "en": "Question answer",
-            "ar": "إجابة الأسئلة"
-          },
-          "description": {
-            "tr": "Yazılı soru–yanıt turu.",
-            "en": "A written question-and-answer round.",
-            "ar": "جولة أسئلة وأجوبة مكتوبة."
+            "tr": "Sorularınıza e-posta ile yazılı yanıt.",
+            "en": "Written answers to your questions by e-mail.",
+            "ar": "إجابات مكتوبة عن أسئلتك عبر البريد الإلكتروني."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Seans akışı",
+          "en": "Session flow",
+          "ar": "مسار الجلسة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Randevudan özet notuna",
+          "en": "From booking to summary note",
+          "ar": "من الحجز إلى الملخص المكتوب"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Her seans aynı düzende ilerler.",
+          "en": "Every session follows the same order.",
+          "ar": "تسير كل جلسة بالترتيب نفسه."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,27 +1847,27 @@
         {
           "year": "01",
           "title": {
-            "tr": "Görüşme",
-            "en": "Consultation",
-            "ar": "استشارة"
+            "tr": "Randevu",
+            "en": "Booking",
+            "ar": "الموعد"
           },
           "text": {
-            "tr": "Kısa tanışma ve amaç belirleme.",
-            "en": "A short meeting and goal setting.",
-            "ar": "لقاء قصير وتحديد الهدف."
+            "tr": "Uygun gün ve saat seçilir.",
+            "en": "A convenient day and time are chosen.",
+            "ar": "يُختار اليوم والوقت المناسبان."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Veri toplama",
-            "en": "Data gathering",
-            "ar": "جمع البيانات"
+            "tr": "Bilgi alma",
+            "en": "Information",
+            "ar": "جمع المعلومات"
           },
           "text": {
-            "tr": "Doğum verisi veya rüya notları.",
-            "en": "Birth data or dream notes.",
-            "ar": "بيانات الولادة أو ملاحظات الحلم."
+            "tr": "Doğum bilgileri ve merak edilen konular paylaşılır.",
+            "en": "Birth details and the topics you are curious about are shared.",
+            "ar": "تُشارَك بيانات الولادة والموضوعات التي تهمّك."
           }
         },
         {
@@ -1867,22 +1878,22 @@
             "ar": "الجلسة"
           },
           "text": {
-            "tr": "Okuma ve açıklama.",
-            "en": "Reading and explanation.",
-            "ar": "القراءة والتفسير."
+            "tr": "Harita ya da rüya birlikte okunur; görüşme yorum niteliğindedir.",
+            "en": "The chart or dream is read together; the session is interpretive in nature.",
+            "ar": "تُقرأ الخريطة أو الحلم معًا، والجلسة تفسيرية بطبيعتها."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Özet",
-            "en": "Summary",
-            "ar": "الملخص"
+            "tr": "Özet notu",
+            "en": "Summary note",
+            "ar": "ملخص مكتوب"
           },
           "text": {
-            "tr": "Yazılı özet paylaşımı.",
-            "en": "Sharing of a written summary.",
-            "ar": "مشاركة ملخص مكتوب."
+            "tr": "Seans sonrası kısa bir yazılı özet gönderilir.",
+            "en": "A short written summary is sent after the session.",
+            "ar": "يُرسَل ملخص مكتوب قصير بعد الجلسة."
           }
         }
       ],
@@ -1911,19 +1922,19 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Danışmanlarımız",
+          "en": "Our consultants",
+          "ar": "مستشارونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Seansları yürüten ekip",
+          "en": "The team behind the sessions",
+          "ar": "الفريق الذي يدير الجلسات"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1934,26 +1945,26 @@
           "role": {
             "tr": "Baş danışman",
             "en": "Lead consultant",
-            "ar": "المستشارة الرائدة"
+            "ar": "كبيرة المستشارين"
           },
           "bio": {
-            "tr": "12 yıl danışmanlık.",
-            "en": "12 years of consulting.",
-            "ar": "١٢ عامًا في الاستشارات."
+            "tr": "12 yıllık astroloji ve danışmanlık.",
+            "en": "12 years of astrology and consulting.",
+            "ar": "١٢ عامًا في الفلك والاستشارات."
           },
           "img": ""
         },
         {
           "name": "Kerem Duman",
           "role": {
-            "tr": "Rüya analisti",
-            "en": "Dream analyst",
-            "ar": "محلل الأحلام"
+            "tr": "Rüya yorumcusu",
+            "en": "Dream interpreter",
+            "ar": "مفسّر أحلام"
           },
           "bio": {
-            "tr": "Rüya notu okuması.",
-            "en": "Reading of dream notes.",
-            "ar": "قراءة ملاحظات الحلم."
+            "tr": "Rüya notlarını birlikte okur.",
+            "en": "Reads dream notes together with you.",
+            "ar": "يقرأ ملاحظات الأحلام معك."
           },
           "img": ""
         },
@@ -1961,13 +1972,13 @@
           "name": "Nazlı Ak",
           "role": {
             "tr": "Kurs eğitmeni",
-            "en": "Course trainer",
-            "ar": "مدربة الدورات"
+            "en": "Course instructor",
+            "ar": "مدرّبة الدورة"
           },
           "bio": {
-            "tr": "Temel kurs dersleri.",
-            "en": "Basic course lessons.",
-            "ar": "دروس الدورة الأساسية."
+            "tr": "Temel astroloji dersleri.",
+            "en": "Basic astrology lessons.",
+            "ar": "دروس الفلك الأساسية."
           },
           "img": ""
         }
@@ -2008,9 +2019,9 @@
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2019,31 +2030,31 @@
         {
           "name": "Elif M.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميلة"
+            "tr": "Danışan",
+            "en": "Client",
+            "ar": "مستشارة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Seans düzenli; özet paylaşımı net.",
-            "en": "Sessions are regular; the summary sharing is clear.",
-            "ar": "الجلسات منتظمة؛ مشاركة الملخص واضحة."
+            "tr": "Seanslar düzenli; yazılı özet çok net.",
+            "en": "The sessions are well organised and the written summary is very clear.",
+            "ar": "الجلسات منظمة والملخص المكتوب واضح جدًا."
           }
         },
         {
           "name": "Tolga R.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميل"
+            "tr": "Atölye katılımcısı",
+            "en": "Workshop participant",
+            "ar": "مشارك في ورشة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Atölye grup çalışması verimli.",
-            "en": "Workshop group work is productive.",
-            "ar": "عمل الورشة الجماعي مفيد."
+            "tr": "Küçük grup çalışması verimliydi.",
+            "en": "The small group work was productive.",
+            "ar": "كان العمل الجماعي الصغير مثمرًا."
           }
         },
         {
@@ -2051,14 +2062,14 @@
           "role": {
             "tr": "Kursiyer",
             "en": "Student",
-            "ar": "طالبة"
+            "ar": "متدربة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Temel kurs 8 derste iyi anlatıldı.",
-            "en": "The basic course was well explained in 8 lessons.",
-            "ar": "قُدمت الدورة الأساسية جيدًا في 8 دروس."
+            "tr": "Temel kurs sekiz derste iyi anlatıldı.",
+            "en": "The basic course was explained well in eight lessons.",
+            "ar": "شُرحت الدورة الأساسية جيدًا في ثمانية دروس."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "10px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Seanslarımız",
+          "en": "Our sessions",
+          "ar": "جلساتنا"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Neler sunuyoruz?",
+          "en": "What do we offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Burç haritesi",
+            "tr": "Doğum haritası",
             "en": "Birth chart",
             "ar": "خريطة الميلاد"
           },
           "metin": {
-            "tr": "Doğum verisiyle kişisel harita.",
-            "en": "Personal chart with birth data.",
-            "ar": "خريطة شخصية ببيانات الولادة."
+            "tr": "Doğum tarihi, saati ve yerine göre kişisel harita okuması.",
+            "en": "A personal chart reading based on birth date, time and place.",
+            "ar": "قراءة خريطة شخصية بحسب تاريخ الولادة ووقتها ومكانها."
           },
-          "img": "hukuk-bekleme.webp",
+          "img": "radyo-anten.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2150,11 +2161,11 @@
             "ar": "تفسير الأحلام"
           },
           "metin": {
-            "tr": "Tek seans rüya analizi.",
-            "en": "A single session dream analysis.",
-            "ar": "تحليل الحلم في جلسة واحدة."
+            "tr": "Rüya notlarınız üzerine tek seanslık sohbet.",
+            "en": "A one-session conversation about your dream notes.",
+            "ar": "جلسة واحدة لمناقشة ملاحظات أحلامك."
           },
-          "img": "hukuk-masa-detay.webp",
+          "img": "guzellik-hizmet-spa.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Dönem okuması",
-            "en": "Period reading",
-            "ar": "قراءة الزمن"
+            "tr": "Temel astroloji kursu",
+            "en": "Basic astrology course",
+            "ar": "دورة الفلك الأساسية"
           },
           "metin": {
-            "tr": "Ay/dönem eğilimleri okuması.",
-            "en": "Reading of month/period trends.",
-            "ar": "قراءة اتجاهات الشهر/الزمن."
+            "tr": "Sekiz derslik giriş kursu.",
+            "en": "An eight-lesson introductory course.",
+            "ar": "دورة تمهيدية من ثمانية دروس."
           },
-          "img": "hukuk-kapi.webp",
+          "img": "hukuk-kitaplik.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "10px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte etkinlik yaptığımız yerler",
+          "en": "Places we host events with",
+          "ar": "أماكن نقيم فيها فعاليات"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal mekân adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional venue names; they do not belong to a real organisation.",
+          "ar": "أسماء أماكن افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Psikoloji"
+          "name": "Demo Yoga Stüdyosu"
         },
         {
-          "name": "Demo Koçluk"
+          "name": "Demo Kitabevi"
         },
         {
-          "name": "Demo Yoga"
-        },
-        {
-          "name": "Demo Okuma"
+          "name": "Demo Kafe"
         },
         {
           "name": "Demo Atölye"
         },
         {
-          "name": "Demo Kurs"
+          "name": "Demo Dergi"
+        },
+        {
+          "name": "Demo Radyo"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Yorumlar kesin sonuç verir mi?",
+            "en": "Do the readings give definite results?",
+            "ar": "هل تعطي القراءات نتائج مؤكدة؟"
+          },
+          "answer": {
+            "tr": "Hayır; seanslar eğlence ve kişisel farkındalık amaçlıdır; sağlık, hukuk veya finans tavsiyesi yerine geçmez.",
+            "en": "No; sessions are for entertainment and self-reflection and do not replace health, legal or financial advice.",
+            "ar": "لا؛ الجلسات للترفيه والتأمل الذاتي ولا تغني عن الاستشارات الصحية أو القانونية أو المالية."
+          },
           "soru": {
-            "tr": "Bu bir kehanet midir?",
-            "en": "Is this a prophecy?",
-            "ar": "هل هذه نبوءة?"
+            "tr": "Yorumlar kesin sonuç verir mi?",
+            "en": "Do the readings give definite results?",
+            "ar": "هل تعطي القراءات نتائج مؤكدة؟"
           },
           "cevap": {
-            "tr": "Hayır; içerik eğitsel ve kişisel gelişim amaçlıdır.",
-            "en": "No; the content is educational and for personal development.",
-            "ar": "لا؛ المحتوى تعليمي وللتطوير الشخصي."
+            "tr": "Hayır; seanslar eğlence ve kişisel farkındalık amaçlıdır; sağlık, hukuk veya finans tavsiyesi yerine geçmez.",
+            "en": "No; sessions are for entertainment and self-reflection and do not replace health, legal or financial advice.",
+            "ar": "لا؛ الجلسات للترفيه والتأمل الذاتي ولا تغني عن الاستشارات الصحية أو القانونية أو المالية."
           }
         },
         {
+          "question": {
+            "tr": "Seans nasıl yapılır?",
+            "en": "How is a session held?",
+            "ar": "كيف تُجرى الجلسة؟"
+          },
+          "answer": {
+            "tr": "Yüz yüze ya da çevrim içi; süre seansa göre değişir (kurgusal bilgi).",
+            "en": "In person or online; the length depends on the session (fictional information).",
+            "ar": "وجهًا لوجه أو عبر الإنترنت؛ وتختلف المدة حسب الجلسة (معلومات افتراضية)."
+          },
           "soru": {
-            "tr": "Online seans var mı?",
-            "en": "Is there an online session?",
-            "ar": "هل توجد جلسة عبر الإنترنت?"
+            "tr": "Seans nasıl yapılır?",
+            "en": "How is a session held?",
+            "ar": "كيف تُجرى الجلسة؟"
           },
           "cevap": {
-            "tr": "Evet; video görüşme ile (demo bilgi).",
-            "en": "Yes; via video call (demo info).",
-            "ar": "نعم؛ عبر مكالمة فيديو (معلومات تجريبية."
+            "tr": "Yüz yüze ya da çevrim içi; süre seansa göre değişir (kurgusal bilgi).",
+            "en": "In person or online; the length depends on the session (fictional information).",
+            "ar": "وجهًا لوجه أو عبر الإنترنت؛ وتختلف المدة حسب الجلسة (معلومات افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Doğum saatimi bilmiyorsam ne olur?",
+            "en": "What if I do not know my birth time?",
+            "ar": "ماذا لو لم أكن أعرف وقت ولادتي؟"
+          },
+          "answer": {
+            "tr": "Saat bilinmiyorsa harita sınırlı okunur; bunu seansta birlikte konuşuruz.",
+            "en": "Without a birth time the chart can only be read in a limited way; we talk it through in the session.",
+            "ar": "إذا كان وقت الولادة مجهولًا فتُقرأ الخريطة بشكل محدود، ونناقش ذلك في الجلسة."
+          },
           "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "tr": "Doğum saatimi bilmiyorsam ne olur?",
+            "en": "What if I do not know my birth time?",
+            "ar": "ماذا لو لم أكن أعرف وقت ولادتي؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+            "tr": "Saat bilinmiyorsa harita sınırlı okunur; bunu seansta birlikte konuşuruz.",
+            "en": "Without a birth time the chart can only be read in a limited way; we talk it through in the session.",
+            "ar": "إذا كان وقت الولادة مجهولًا فتُقرأ الخريطة بشكل محدود، ونناقش ذلك في الجلسة."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
-            "tr": "Çocuklara yönelik hizmet var mı?",
-            "en": "Is there a service for children?",
-            "ar": "هل توجد خدمة للأطفال?"
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "18 yaş altı için hizmet sunulmaz.",
-            "en": "No service is offered for those under 18.",
-            "ar": "لا تُقدَّم خدمة لمن هم دون الثامنة عشرة."
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Seans randevusu isteyin",
+          "en": "Request a session",
+          "ar": "اطلب موعد جلسة"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Hangi seansı istediğinizi yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us which session you would like; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب الجلسة التي تريدها ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Yıldız Köşkü",
@@ -2421,14 +2472,14 @@
           "ar": "Yıldız Köşkü"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
           "tr": "Millet Caddesi No: 9 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "9 Millet Avenue, 2nd floor, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الملت رقم 9، الدور الثاني، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمة رقم 9، الطابق الثاني، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 026 06 06",
         "whatsapp": "903420260606",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Seans randevusu",
+              "en": "Session booking",
+              "ar": "حجز جلسة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Rüya yorumu",
+              "en": "Dream interpretation",
+              "ar": "تفسير الأحلام"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Kurs ve atölye",
+              "en": "Course and workshop",
+              "ar": "دورة وورشة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Yıldız Köşkü"
         },
         "description": {
-          "tr": "Yildiz Koshu 2019dan beri burç ve ruya danışmanlığı yapar. Tüm içerikler eğitseldir ve kurgusaldır; bilimsel tavsiye yerine geçmez.",
-          "en": "Yildiz Koshu has offered zodiac and dream consulting since 2019. All content is educational and fictional and does not replace scientific advice.",
-          "ar": "يقدم يلدز كوشه استشارات الأبراج والأحلام منذ عام 2019. جميع المحتويات تعليمية وافتراضية ولا تغني عن النصيحة العلمية."
+          "tr": "Yıldız Köşkü, 2019’dan beri doğum haritası, rüya yorumu ve kurs seansları düzenler. Bu sayfa demodur; ad ve rakamlar kurgusaldır. İçerik eğlence ve kişisel farkındalık amaçlıdır.",
+          "en": "Yıldız Köşkü has held birth chart, dream interpretation and course sessions since 2019. This page is a demo; names and figures are fictional. The content is for entertainment and self-reflection.",
+          "ar": "تقيم يلدز كوشكو منذ عام 2019 جلسات خريطة الميلاد وتفسير الأحلام ودورات تعليمية. هذه الصفحة تجريبية والأسماء والأرقام افتراضية. المحتوى للترفيه والتأمل الذاتي."
         },
         "name2": {
-          "tr": "Eğitsel çerçeve",
-          "en": "Educational frame",
-          "ar": "إطار تعليمي"
+          "tr": "Sakin ortam",
+          "en": "A calm setting",
+          "ar": "أجواء هادئة"
         },
         "spot2": {
-          "tr": "İçerik eğitici amaçlıdır; kehanet içermez.",
-          "en": "The content is educational in purpose; it contains no prophecy.",
-          "ar": "المحتوى تعليمي؛ لا يحتوي على نبوءات."
+          "tr": "Seanslar sessiz ve özel bir odada yapılır.",
+          "en": "Sessions take place in a quiet, private room.",
+          "ar": "تُعقد الجلسات في غرفة هادئة وخاصة."
         },
-        "icon2": "school",
+        "icon2": "spa",
         "name3": {
-          "tr": "Seans kaydı",
-          "en": "Session record",
-          "ar": "سجل الجلسة"
+          "tr": "Yazılı özet",
+          "en": "Written summary",
+          "ar": "ملخص مكتوب"
         },
         "spot3": {
-          "tr": "Her seansta özet not paylaşılır.",
-          "en": "A summary note is shared in each session.",
-          "ar": "يُشارك ملخص ملاحظة في كل جلسة."
+          "tr": "Her seans sonrası kısa bir özet notu verilir.",
+          "en": "A short summary note is given after every session.",
+          "ar": "يُقدَّم ملخص قصير بعد كل جلسة."
         },
-        "icon3": "schedule",
-        "img": "hukuk-buro-1.webp",
+        "icon3": "description",
+        "img": "hukuk-masa-detay.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Millet Caddesi No: 9 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "9 Millet Avenue, 2nd floor, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الملت رقم 9، الدور الثاني، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمة رقم 9، الطابق الثاني، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 10:00 – 20:00",
+          "en": "Mon–Fri 10:00 – 20:00",
+          "ar": "الاثنين–الجمعة 10:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "10px",
         "title": {
-          "tr": "İlk seans için görüşme",
-          "en": "Consultation for a first session",
-          "ar": "استشارة للجلسة الأولى"
+          "tr": "Seans için randevu alın",
+          "en": "Book a session",
+          "ar": "احجز موعدًا لجلسة"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2893,7 +2945,7 @@
         "waMessage": {
           "tr": "Merhaba, Yıldız Köşkü ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Yıldız Köşkü.",
-          "ar": "مرحبًا، أودّ التواصل مع Yıldız Köşkü."
+          "ar": "مرحبًا، أودّ التواصل مع يلدز كوشكو."
         },
         "img": "",
         "alt": {
@@ -2951,7 +3003,7 @@
         "about": {
           "tr": "Yıldız Köşkü demo temadır; içerik kurgusaldır.",
           "en": "Yıldız Köşkü is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Yıldız Köşkü)؛ المحتوى افتراضي."
+          "ar": "يلدز كوشكو قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Millet Caddesi No: 9 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "9 Millet Avenue, 2nd floor, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع الملت رقم 9، الدور الثاني، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الأمة رقم 9، الطابق الثاني، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 026 06 06",
         "email": "bilgi@yildizkosk.example",

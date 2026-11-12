@@ -1,7 +1,7 @@
 {
   "name": "Yıldız Köşkü",
   "short_name": "Yıldız Köşkü",
-  "description": "Burç ve rüya danışmanlığı; görseller temsilîdir.",
+  "description": "Doğum haritası, rüya yorumu ve dönem okuması; eğlence ve kişisel farkındalık amaçlıdır. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Burç ve rüya danışmanlığı; görseller temsilîdir.",
-    "en": "Zodiac and dream consulting; images are representative.",
-    "ar": "استشارات الأبراج وتحليل الأحلام؛ الصور تمثيلية."
+    "tr": "Doğum haritası, rüya yorumu ve dönem okuması; eğlence ve kişisel farkındalık amaçlıdır. Görseller temsilîdir.",
+    "en": "Birth chart, dream interpretation and period readings, for entertainment and self-reflection. Images are representative.",
+    "ar": "قراءة الخريطة الفلكية وتفسير الأحلام وقراءة الفترات؛ للترفيه والتأمل الذاتي. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "burç danışmanlığı, rüya yorumu",
-    "en": "zodiac consulting, dream interpretation",
-    "ar": "استشارات الأبراج، تفسير الأحلام"
+    "tr": "burç yorumu, doğum haritası, rüya yorumu, astroloji kursu",
+    "en": "horoscope reading, birth chart, dream interpretation, astrology course",
+    "ar": "قراءة الأبراج، خريطة الميلاد، تفسير الأحلام، دورة فلك"
   },
   "category": "Kurumsal",
   "name": "Yıldız Köşkü",
