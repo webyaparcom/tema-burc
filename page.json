@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Burç, rüya ve dönem okuması.",
-        "en": "Zodiac, dream and period reading.",
-        "ar": "قراءة الأبراج والأحلام والأزمنة."
+        "tr": "Harita, rüya ve dönem okuması; kurs ve atölye.",
+        "en": "Chart, dream and period readings; courses and workshops.",
+        "ar": "قراءات الخريطة والأحلام والفترات، مع دورات وورش."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -50,7 +50,7 @@
       "pathnext": "",
       "description": {
         "tr": "Burç ve rüya danışmanlığı.",
-        "en": "Zodiac and dream consulting.",
+        "en": "Astrology and dream consulting.",
         "ar": "استشارات الأبراج والأحلام."
       }
     },
