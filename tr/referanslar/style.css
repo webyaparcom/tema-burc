@@ -401,7 +401,7 @@
   }
 
   .b0001-testi-stars {
-    color: #f59e0b;
+    color: color-mix(in srgb, var(--mx-color-warning, #d97706) 65%, var(--mx-site-text, #1b1b1b));
     font-size: 15px;
     letter-spacing: 2px;
   }
